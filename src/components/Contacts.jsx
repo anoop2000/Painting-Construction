@@ -94,7 +94,7 @@ function Contacts() {
           <div className="col-lg-6">
             <h2 className="fw-bold mb-3">Get a Free Quote from Colour Finishers Thrissur</h2>
             <p className="text-muted">
-               We specialize in interior and exterior painting, residential and commercial construction, house renovation, waterproofing, texture painting, wall putty, and complete finishing works.
+              We specialize in interior and exterior painting, residential and commercial construction, house renovation, waterproofing, texture painting, wall putty, and complete finishing works.
             </p>
 
           </div>
@@ -171,7 +171,7 @@ function Contacts() {
             </div>
             <div className="contact-fab-container">
               <a
-                href="tel:+1 (512) 555-0198"
+                href="tel:9400861858"
                 className="contact-fab contact-fab-phone"
                 aria-label="Call us"
               >
@@ -181,7 +181,7 @@ function Contacts() {
               </a>
 
               <a
-                href="https://wa.me/(512) 555-0198"
+                href="https://wa.me/9400861858?text=Hi%20Colour%20Finishers%20Thrissur%2C%20I%20saw%20your%20website%20and%20I%27m%20interested%20in%20your%20services.%20Can%20I%20get%20a%20free%20quote%3F"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="contact-fab contact-fab-whatsapp"
