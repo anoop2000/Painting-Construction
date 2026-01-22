@@ -13,7 +13,7 @@ const Footer = () => {
           </div>
           <div className="footer-contact-item">
             <i className="bi bi-telephone-fill me-2 text-warning"></i>
-            <a href="tel:+15125550198">+1 (512) 555-0198</a>
+            <a href="tel:9400861858">940086 1858</a>
           </div>
         </div>
         <div className="d-flex gap-3 fs-4">

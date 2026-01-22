@@ -60,11 +60,13 @@ const Navbar = () => {
           }}
         >
           <img
-            src={theme === 'dark' ? '/images/painting_logo_black.png' : '/images/painting_logo_wh.png'}
+            src="/images/colors_logo.jpeg"
             alt="Colour Finishers Thrissur Logo"
             height="40"
-            className={`shadow-sm border ${theme === 'dark' ? 'border-transparent-logo' : 'border-light'}`}
+            className={`shadow-sm border ${theme === "dark" ? "border-transparent-logo" : "border-light"}`}
+            style={{ borderRadius: "50%" }}
           />
+
         </a>
         <button
           className="navbar-toggler"
