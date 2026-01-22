@@ -5,6 +5,10 @@
   --brand-muted: #4b5563;
 }
 
+.border-transparent-logo {
+  border-color: transparent !important;
+}
+
 html {
   scroll-behavior: smooth;
 }

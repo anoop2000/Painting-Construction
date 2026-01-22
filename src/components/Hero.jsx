@@ -4,10 +4,9 @@ const Hero = () => {
       <div className="container">
         <span className="badge mb-3 text-uppercase themed-hero-badge">Premium Services</span>
         <h1 className="display-4 fw-bold mb-3 hero-title">
-          <span>Beautiful Paint.</span>
-          <span>Expert Hands.</span>
-          <span>Stunning Results.</span>
+          <span>Colour Finishers Thrissur</span>
         </h1>
+        <h2 className="h4 text-warning mb-3">Painting & Construction Experts in Kerala</h2>
         <div className="hero-palette-loader mx-auto mb-4" aria-hidden="true">
           <div className="paint-drop drop-1"></div>
           <div className="paint-drop drop-2"></div>
@@ -19,10 +18,10 @@ const Hero = () => {
           <div className="paint-drop drop-8"></div>
         </div>
         <p className="lead mb-4">
-          From custom builds to luxury finishes for Painting and Construction Services.
+          Trusted professionals for interior & exterior painting, residential & commercial construction, and complete house finishing works in Thrissur.
         </p>
         <div className="d-flex flex-column flex-sm-row justify-content-center gap-6">
-         
+
           <a href="#contact" className="btn btn-outline-danger btn-lg px-4 text-uppercase fw-semibold">
             Get Free Quote
           </a>

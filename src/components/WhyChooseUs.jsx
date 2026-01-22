@@ -1,8 +1,8 @@
 const highlights = [
-  { icon: 'bi-people-fill', title: 'Experienced Team', text: 'Licensed pros with decades of combined expertise.' },
-  { icon: 'bi-wallet2', title: 'Affordable Pricing', text: 'Transparent quotes with flexible payment options.' },
-  { icon: 'bi-alarm-fill', title: 'On-Time Delivery', text: 'Structured timelines and weekly progress updates.' },
-  { icon: 'bi-brush-fill', title: 'Quality Materials', text: 'Premium paints, fixtures, and sustainable finishes.' },
+  { icon: 'bi-gem', title: 'Premium Quality', text: 'Superior results using high-quality materials and advanced techniques.' },
+  { icon: 'bi-shield-check', title: 'Durable Finishes', text: 'Long-lasting quality and transparent pricing for every project.' },
+  { icon: 'bi-alarm', title: 'Timely Completion', text: 'Punctual project delivery with skilled construction professionals.' },
+  { icon: 'bi-house-heart', title: 'Modern Designs', text: 'Stunning modern designs tailored for homes, villas, and flats.' },
 ];
 
 const WhyChooseUs = () => {
@@ -10,7 +10,7 @@ const WhyChooseUs = () => {
     <section id="why-us" className="py-5 why-us-section themed-section">
       <div className="container">
         <div className="text-center mb-5">
-          
+
           <h2 className="fw-bold">We Build With Integrity</h2>
         </div>
         <div className="row g-4">

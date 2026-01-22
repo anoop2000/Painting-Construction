@@ -3,8 +3,8 @@ const Footer = () => {
     <footer className="footer-section themed-footer py-4">
       <div className="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
         <div>
-          <h5 className="fw-bold mb-1">PrimeBuild Construction</h5>
-          <p className="mb-0">Building spaces that inspire.</p>
+          <h5 className="fw-bold mb-1">Colour Finishers Thrissur</h5>
+          <p className="mb-0">📍 Serving Thrissur and nearby areas</p>
         </div>
         <div className="footer-contact">
           <div className="footer-contact-item">
@@ -26,7 +26,6 @@ const Footer = () => {
               <a
                 key={network}
                 href={href}
-                className="footer-icon-link hover-lift"
                 aria-label={network}
                 target="_blank"
                 rel="noopener noreferrer"

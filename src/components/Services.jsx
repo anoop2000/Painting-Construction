@@ -1,17 +1,17 @@
 const services = [
   {
-    title: 'House Painting',
-    description: 'Vibrant palettes, precision edges, and durable finishes for every style.',
+    title: 'Professional Painting',
+    description: 'Specializing in interior and exterior painting, texture painting, and wall putty for a spotless, premium finish.',
     image: '/images/service-house-painting.jpeg',
   },
   {
-    title: 'Interior / Exterior Construction',
-    description: 'From framing to finishing, we handle both interior and exterior builds.',
+    title: 'Construction & Renovation',
+    description: 'Expert residential and commercial construction, new house builds, villa renovations, and modern office designs.',
     image: '/images/service-interior-exterior.jpeg',
   },
   {
-    title: 'Waterproofing & Renovation',
-    description: 'Protective coatings and smart renovations that extend the life of your home.',
+    title: 'Waterproofing & Finishing',
+    description: 'Durable waterproofing solutions and complete build finishing works to protect and enhance your property.',
     image: '/images/service-waterproofing-renovation (1).jpg',
   },
 ];
@@ -21,7 +21,7 @@ const Services = () => {
     <section id="services" className="py-5 themed-section">
       <div className="container">
         <div className="text-center mb-5">
-          
+
           <h2 className="fw-bold">Professional Services</h2>
           <p className="text-muted">Modern craftsmanship powered by detail-oriented experts.</p>
         </div>

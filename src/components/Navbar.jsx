@@ -61,9 +61,9 @@ const Navbar = () => {
         >
           <img
             src={theme === 'dark' ? '/images/painting_logo_black.png' : '/images/painting_logo_wh.png'}
-            alt="Company Logo"
+            alt="Colour Finishers Thrissur Logo"
             height="40"
-            className={theme === 'dark' ? 'shadow-sm' : 'border border-light shadow-sm'}
+            className={`shadow-sm border ${theme === 'dark' ? 'border-transparent-logo' : 'border-light'}`}
           />
         </a>
         <button

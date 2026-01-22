@@ -3,41 +3,28 @@ import { useEffect, useRef, useState } from 'react';
 const images = [
   {
     src: '/images/contemporary_modern_house.jpg',
-    title: 'Elegant Kerala Style Modern Home',
-    description: 'A full professional exterior repaint using weather-shield coatings, enhancing the architecture’s clean lines and natural light. Balanced tones chosen to elevate curb appeal and long-term durability.',
-    caption: 'Project: Modern Kerala home exterior makeover · UV-resistant + all-weather protection',
+    title: 'Modern Villa in Thrissur',
+    description: 'A complete residential painting project in Thrissur using premium-quality materials and modern design techniques for a durable, stunning finish.',
+    caption: 'Project: Exterior Painting · High-quality weather protection',
   },
   {
     src: 'images/nalukettu_veedu.jpg',
-    title: 'Heritage Nalukettu Restoration',
-    description: 'A tasteful repaint preserving the cultural charm of Nalukettu architecture with fresh, breathable colors and natural finishes that highlight wooden elements.',
-    caption: 'Project: Nalukettu-style home refresh · Eco-friendly + heritage-safe coating',
+    title: 'Traditional House Renovation',
+    description: 'Expert home renovation in Kerala, preserving traditional charm with high-quality interior painting and advanced finishing works.',
+    caption: 'Project: Heritage Restoration · Eco-friendly coatings',
   },
   {
     src: '/images/modern_home_three.jpg',
-    title: 'Elegant Kerala Style Modern Home',
-    description: 'A full professional exterior repaint using weather-shield coatings, enhancing the architecture’s clean lines and natural light. Balanced tones chosen to elevate curb appeal and long-term durability.',
-    caption: 'Project: Modern Kerala home exterior makeover · UV-resistant + all-weather protection',
+    title: 'Luxury Flat Finishing',
+    description: 'Interior painting and wall putty works for a luxury apartment in Thrissur, delivering a flawless modern look with skilled painters.',
+    caption: 'Project: Interior Finishing · Seamless wall putty + texture',
   },
   {
     src: 'images/traditional_home_one.jpg',
-    title: 'Heritage Nalukettu Restoration',
-    description: 'A tasteful repaint preserving the cultural charm of Nalukettu architecture with fresh, breathable colors and natural finishes that highlight wooden elements.',
-    caption: 'Project: Nalukettu-style home refresh · Eco-friendly + heritage-safe coating',
+    title: 'Commercial Office Painting',
+    description: 'Professional painting and maintenance for a commercial building in Thrissur, ensuring a professional and durable environment.',
+    caption: 'Project: Office Workspace Refresh · Premium commercial grade paint',
   },
-  {
-    src: '/images/modern_home_two.jpg',
-    title: 'Elegant Kerala Style Modern Home',
-    description: 'A full professional exterior repaint using weather-shield coatings, enhancing the architecture’s clean lines and natural light. Balanced tones chosen to elevate curb appeal and long-term durability.',
-    caption: 'Project: Modern Kerala home exterior makeover · UV-resistant + all-weather protection',
-  },
-  {
-    src: 'images/traditional_home_two.jpg',
-    title: 'Heritage Nalukettu Restoration',
-    description: 'A tasteful repaint preserving the cultural charm of Nalukettu architecture with fresh, breathable colors and natural finishes that highlight wooden elements.',
-    caption: 'Project: Nalukettu-style home refresh · Eco-friendly + heritage-safe coating',
-  },
-  
 ];
 
 const sliderStyles = `
@@ -625,7 +612,7 @@ const Gallery = () => {
       <style>{sliderStyles}</style>
       <div className="container-fluid p-0">
         <div className="text-center gallery-heading">
-          
+
           <h2 className="fw-bold">Recent Transformations</h2>
         </div>
         <div className="gallery-slider">
@@ -636,8 +623,8 @@ const Gallery = () => {
             onTouchMove={handleCarouselTouchMove}
             onTouchEnd={handleCarouselTouchEnd}
           >
-            <div 
-              className="gallery-track" 
+            <div
+              className="gallery-track"
               ref={trackRef}
               style={{ transform: `translateX(${translateX}px)` }}
             >
@@ -760,7 +747,7 @@ const Gallery = () => {
               </button>
             </div>
             <div className="lightbox-info">
-              {currentImage.title && <h3 style={{color:"white"}} >{currentImage.title}</h3>}
+              {currentImage.title && <h3 style={{ color: "white" }} >{currentImage.title}</h3>}
               {currentImage.description && <p>{currentImage.description}</p>}
               {currentImage.caption && (
                 <p className="lightbox-caption">{currentImage.caption}</p>
