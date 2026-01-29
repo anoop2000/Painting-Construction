@@ -8,7 +8,7 @@ const images = [
     caption: 'Project: Exterior Painting · High-quality weather protection',
   },
   {
-    src: 'images/nalukettu_veedu.jpg',
+    src: 'images/nadumuttam_veedu.png',
     title: 'Traditional House Renovation',
     description: 'Expert home renovation in Kerala, preserving traditional charm with high-quality interior painting and advanced finishing works.',
     caption: 'Project: Heritage Restoration · Eco-friendly coatings',
@@ -21,7 +21,7 @@ const images = [
   },
   {
     src: 'images/traditional_home_one.jpg',
-    title: 'Commercial Office Painting',
+    title: 'Commercial Home Painting',
     description: 'Professional painting and maintenance for a commercial building in Thrissur, ensuring a professional and durable environment.',
     caption: 'Project: Office Workspace Refresh · Premium commercial grade paint',
   },
