@@ -60,9 +60,9 @@ const Navbar = () => {
           }}
         >
           <img
-            src="/images/web_logo.png"
+            src="/images/new_logo.png"
             alt="Colour Finishers Thrissur Logo"
-            height="40"
+            height="30"
             // className={`shadow-sm border ${theme === "dark" ? "border-transparent-logo" : "border-light"}`}
             
           />
