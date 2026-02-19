@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 
 const images = [
   {
-    src: '/images/contemporary_modern_house.jpg',
+    src: '/images/modern_house_one.png',
     title: 'Modern Villa in Thrissur',
     description: 'A complete residential painting project in Thrissur using premium-quality materials and modern design techniques for a durable, stunning finish.',
     caption: 'Project: Exterior Painting · High-quality weather protection',
@@ -75,8 +75,8 @@ const sliderStyles = `
   }
 
   .gallery-item img.carousel-image {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     display: block;
     background: transparent;
