@@ -27,6 +27,8 @@ const images = [
   },
 ];
 
+/////////////////////////////////
+
 const sliderStyles = `
   .gallery-section {
     padding: 0;
