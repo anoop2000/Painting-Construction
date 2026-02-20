@@ -14,13 +14,13 @@ const images = [
     caption: 'Project: Heritage Restoration · Eco-friendly coatings',
   },
   {
-    src: '/images/modern_home_three.jpg',
+    src: '/images/modern_house_cleaned.png',
     title: 'Luxury Flat Finishing',
     description: 'Interior painting and wall putty works for a luxury apartment in Thrissur, delivering a flawless modern look with skilled painters.',
     caption: 'Project: Interior Finishing · Seamless wall putty + texture',
   },
   {
-    src: 'images/traditional_home_one.jpg',
+    src: 'images/traditional_house.png',
     title: 'Commercial Home Painting',
     description: 'Professional painting and maintenance for a commercial building in Thrissur, ensuring a professional and durable environment.',
     caption: 'Project: Office Workspace Refresh · Premium commercial grade paint',
